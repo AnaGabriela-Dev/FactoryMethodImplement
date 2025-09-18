@@ -4,7 +4,7 @@ package deliveryFactoryMethod;
 
 class Carro implements Transporte{
 	@Override
-	public void entregar(Pedido pedido) { //implemenação Metodo que está na interface
+	public void entregar(Pedido pedido) { //implementação Metodo que está na interface
 		System.out.println("Entrega de Carro para " + pedido.getEndereco());
 	}
 	
@@ -25,4 +25,5 @@ class Bicicleta implements Transporte{
 	}
 
 }
+
 
